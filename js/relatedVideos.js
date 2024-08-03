@@ -71,10 +71,14 @@ const videos = [
   },
 ];
 
-const relatedVideos = document.getElementById("relatedVideos");
+const relatedVideos = document.getElementById("relatedVideos"); // Mengambil elemen dengan ID relatedVideos
+
+// Menambahkan setiap video ke dalam elemen relatedVideos
 videos.forEach((video) => {
-  const videoElement = document.createElement("div");
-  videoElement.classList.add("video");
+  const videoElement = document.createElement("div"); // Membuat elemen div untuk setiap video
+  videoElement.classList.add("video"); // Menambahkan class video ke dalam elemen videoElement
+
+  // Mengisi elemen videoElement dengan HTML
   videoElement.innerHTML = `
     <a href="${video.link}" target="_blank" class="d-flex gap-3 link-dark link-underline-opacity-0 link-underline-opacity-100-hover">
       <img
@@ -87,5 +91,7 @@ videos.forEach((video) => {
       </div>
     </a>
   `;
+
+  // Menambahkan elemen videoElement ke dalam elemen relatedVideos
   relatedVideos.appendChild(videoElement);
 });
