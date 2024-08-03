@@ -1,22 +1,22 @@
 const comments = [
   {
-    name: "Nama Mahasiswa (NIM)",
-    comment: "Terima kasih untuk materinya, Pak. Sangat bermanfaat!",
+    name: "Rizki Budi Prasetyo (230401010019)",
+    comment: "Terima kasih untuk materinya, Pak. Sangat bermanfaat.",
     createdAt: "19 Juli 2024",
   },
   {
-    name: "Nama Mahasiswa (NIM)",
-    comment: "Mantap! Dari nol sampai bisa, terima kasih banyak!",
+    name: "Itang Asep Sopiandi (230401010045)",
+    comment: "Dari nol sampai bisa. Terima kasih banyak, Pak.",
     createdAt: "20 Juli 2024",
   },
   {
-    name: "Nama Mahasiswa (NIM)",
+    name: "Freddy Everhart Daniel Lodewijk Maramis (230401010201)",
     comment: "Materi yang disampaikan sangat mudah dipahami.",
     createdAt: "21 Juli 2024",
   },
   {
-    name: "Nama Mahasiswa (NIM)",
-    comment: "Terima kasih banyak, Pak! Sangat bermanfaat!",
+    name: "Farhan (230401010027)",
+    comment: "Terima kasih banyak, Pak. Sangat bermanfaat.",
     createdAt: "22 Juli 2024",
   },
 ];
